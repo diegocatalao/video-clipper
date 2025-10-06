@@ -4,6 +4,8 @@ This is a very small project to transform a video stream into a small
 thumbnails. It`s can be useful if you need something like a YouTube thumbnail 
 preview.
 
+Must be improved with a MSE calculation of frames diff.
+
 On smart TV's you can use this to handle backpressure on your CDNs / servers so that it doesn't require as many thumbnails. You can this images **inside** of your tv. That`s great, right?!
 
 This project is totally based on Gstreamer, its a plugin and you will be 
