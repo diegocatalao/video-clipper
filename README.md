@@ -4,7 +4,12 @@ This is a very small project to transform a video stream into a small
 thumbnails. It`s can be useful if you need something like a YouTube thumbnail 
 preview.
 
-Must be improved with a MSE calculation of frames diff.
+![youtube-image-slices](assets/youtube_slots.jpg)
+![result](assets/result.gif)
+
+
+Of course the youtube use a lot of metrics like IA to discovery the best parts of
+the videos. But you can use SSIM to calculate the frame difference. Its good too.
 
 On smart TV's you can use this to handle backpressure on your CDNs / servers so that it doesn't require as many thumbnails. You can this images **inside** of your tv. That`s great, right?!
 
